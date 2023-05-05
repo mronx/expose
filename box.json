@@ -8,10 +8,9 @@
         "config",
         "vendor"
     ],
-    "exclude-dev-files": true,
+    "exclude-dev-files": false,
     "files": [
-        "composer.json",
-        "expose"
+        "composer.json"
     ],
     "exclude-composer-files": false,
     "compression": "GZ",
