@@ -1,5 +1,5 @@
 {
-    "name": "beyondcode/expose",
+    "name": "mronx/expose",
     "type": "project",
     "description": "Create public URLs for local sites through any firewall and VPN.",
     "keywords": [
@@ -7,7 +7,7 @@
         "tunnel",
         "ngrok"
     ],
-    "homepage": "https://sharedwithexpose.com",
+    "homepage": "https://mronx.me",
     "license": "MIT",
     "authors": [
         {

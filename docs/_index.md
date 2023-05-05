@@ -1,4 +1,4 @@
 ---
 packageName: Expose
-githubUrl: https://github.com/beyondcode/expose
+githubUrl: https://github.com/mronx/expose
 ---

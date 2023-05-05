@@ -14,7 +14,7 @@ return [
     */
     'servers' => [
         'main' => [
-            'host' => 'sharedwithexpose.com',
+            'host' => 'mronx.me',
             'port' => 443,
         ],
     ],
@@ -185,11 +185,7 @@ return [
         | if you enable authentication token validation.
         |
         */
-        'database' => implode(DIRECTORY_SEPARATOR, [
-            $_SERVER['HOME'] ?? __DIR__,
-            '.expose',
-            'expose.db',
-        ]),
+        'database' => database_path('expose.db'),
 
         /*
         |--------------------------------------------------------------------------

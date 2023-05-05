@@ -34,12 +34,12 @@ return [
     |--------------------------------------------------------------------------
     |
     | The expose server to connect to. By default, expose is using the free
-    | sharedwithexpose.com server, offered by Beyond Code. You will need a free
+    | mronx.me server, offered by Beyond Code. You will need a free
     | Beyond Code account in order to authenticate with the server.
     | Feel free to host your own server and change this value.
     |
     */
-    'host' => 'sharedwithexpose.com',
+    'host' => 'mronx.me',
 
     /*
     |--------------------------------------------------------------------------

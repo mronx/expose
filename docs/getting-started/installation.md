@@ -28,7 +28,7 @@ After that, you are ready to go and can [share your first site](/docs/getting-st
 Expose is a PHP application and you can install the client for your local machine as a global composer dependency:
 
 ```bash
-composer global require beyondcode/expose
+composer global require mronx/expose
 ```
 
 Make sure that your global composer directory is inside of your `PATH` environment variable.

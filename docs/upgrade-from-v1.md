@@ -10,7 +10,7 @@ Expose 2 is now available and comes with a lot of new features and improvements!
 The easiest way to update your existing Expose 1 installation to Expose 2, is by using composer.
 
 ```bash
-composer global require beyondcode/expose:2.0
+composer global require mronx/expose:2.0
 ```
 
 This will download and install the latest version of Expose. Your existing authentication token and configuration file will still be valid after updating to the latest version.

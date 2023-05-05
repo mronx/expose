@@ -28,6 +28,6 @@ expose share https://my-local-site.dev
 
 ## Custom Subdomains ::pro
 
-To make your life easier, Expose tries to share your local URLs using custom subdomains. This allows you to share your local URL `my-local-site.dev` as `my-local-site.us-1.sharedwithexpose.com`.
+To make your life easier, Expose tries to share your local URLs using custom subdomains. This allows you to share your local URL `my-local-site.dev` as `my-local-site.mronx.me`.
 
 By default, Expose uses a slugified version of the URL that you want to share, but you can also [choose your own custom subdomain](/docs/client/sharing#share-a-local-site-with-a-given-subdomain).

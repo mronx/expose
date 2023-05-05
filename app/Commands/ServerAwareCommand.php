@@ -12,7 +12,7 @@ use Symfony\Component\Console\Output\ConsoleOutput;
 
 abstract class ServerAwareCommand extends Command
 {
-    const DEFAULT_HOSTNAME = 'sharedwithexpose.com';
+    const DEFAULT_HOSTNAME = 'mronx.me';
     const DEFAULT_PORT = 443;
     const DEFAULT_SERVER_ENDPOINT = 'https://expose.dev/api/servers';
 
@@ -45,7 +45,7 @@ abstract class ServerAwareCommand extends Command
         /**
          * Try to find the server in the servers array.
          * If no array exists at all (when upgrading from v1),
-         * always return sharedwithexpose.com.
+         * always return mronx.me.
          */
         if (config('expose.servers') === null) {
             return static::DEFAULT_HOSTNAME;
@@ -70,7 +70,7 @@ abstract class ServerAwareCommand extends Command
         /**
          * Try to find the server in the servers array.
          * If no array exists at all (when upgrading from v1),
-         * always return sharedwithexpose.com.
+         * always return mronx.me.
          */
         if (config('expose.servers') === null) {
             return static::DEFAULT_PORT;

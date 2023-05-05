@@ -16,7 +16,7 @@ The result looks like this:
 ```json
 {
    "configuration":{
-      "hostname": "sharedwithexpose.com",
+      "hostname": "mronx.me",
       "port": 8080,
       "database": "/home/forge/expose/database/expose.db",
       "validate_auth_tokens": false,

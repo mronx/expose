@@ -51,7 +51,7 @@ class ApiTest extends TestCase
     public function it_returns_the_connected_subdomain_urls()
     {
         Client::$subdomains = [
-            'https://test.eu-1.sharedwithexpose.com',
+            'https://test.mronx.me',
         ];
 
         $this->startDashboard();
@@ -63,7 +63,7 @@ class ApiTest extends TestCase
 
         $this->assertIsArray($json->tunnels);
         $this->assertCount(1, $json->tunnels);
-        $this->assertSame('https://test.eu-1.sharedwithexpose.com', $json->tunnels[0]);
+        $this->assertSame('https://test.mronx.me', $json->tunnels[0]);
     }
 
     protected function startDashboard()
