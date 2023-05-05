@@ -1,4 +1,4 @@
-[![https://expose.dev/?ref=github](https://expose.dev/images/expose/og_card.png)](https://expose.dev/?ref=github)
+[![https://mronx.me/?ref=github](https://mronx.me/images/expose/og_card.png)](https://mronx.me/?ref=github)
 
 # Expose
 
@@ -10,7 +10,7 @@ An open-source ngrok alternative - written in PHP.
 
 ## ⭐️ Managed Expose & Expose Pro ⭐️
 
-You can use a managed version with our proprietary platform and our free (EU) test server at the [official website](https://expose.dev). Upgrade to Expose Pro to use our global server network with your own custom domains and get high-speed tunnels all over the world.
+You can use a managed version with our proprietary platform and our free (EU) test server at the [official website](https://mronx.me). Upgrade to Expose Pro to use our global server network with your own custom domains and get high-speed tunnels all over the world.
 
 ## Installation
 
@@ -22,7 +22,7 @@ composer global require mronx/expose
 
 ## Documentation
 
-For installation instructions of your own server, in-depth usage and deployment details, please take a look at the [official documentation](https://expose.dev/docs).
+For installation instructions of your own server, in-depth usage and deployment details, please take a look at the [official documentation](https://mronx.me/docs).
 
 ### Security
 

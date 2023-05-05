@@ -14,7 +14,7 @@ abstract class ServerAwareCommand extends Command
 {
     const DEFAULT_HOSTNAME = 'mronx.me';
     const DEFAULT_PORT = 443;
-    const DEFAULT_SERVER_ENDPOINT = 'https://expose.dev/api/servers';
+    const DEFAULT_SERVER_ENDPOINT = 'https://mronx.me/api/servers';
 
     public function __construct()
     {

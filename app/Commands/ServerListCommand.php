@@ -8,7 +8,7 @@ use LaravelZero\Framework\Commands\Command;
 
 class ServerListCommand extends Command
 {
-    const DEFAULT_SERVER_ENDPOINT = 'https://expose.dev/api/servers';
+    const DEFAULT_SERVER_ENDPOINT = 'https://mronx.me/api/servers';
 
     protected $signature = 'servers';
 

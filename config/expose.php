@@ -32,7 +32,7 @@ return [
     | if available.
     |
     */
-    'server_endpoint' => 'https://expose.dev/api/servers',
+    'server_endpoint' => 'https://mronx.me/api/servers',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     | The custom domain to use when sharing sites with Expose.
     | You can register your own custom domain using Expose Pro
-    | Learn more at: https://expose.dev/get-pro
+    | Learn more at: https://mronx.me/get-pro
     |
     | > expose default-domain YOUR-CUSTOM-WHITELABEL-DOMAIN
     |
